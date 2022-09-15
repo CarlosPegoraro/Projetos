@@ -1,0 +1,7 @@
+body {
+    height: auto;
+    background-size: cover!important;
+    background: url(imagens/lousapreta.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}

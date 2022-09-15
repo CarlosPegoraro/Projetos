@@ -1,0 +1,74 @@
+/*____________________CORES___________________________*/
+.azul {
+    color: blue;
+}
+.azulescuro {
+    color: rgb(23, 23, 131);
+}
+.verde {
+    color: rgb(7, 185, 7) ;
+}
+.vermelho {
+    color: #DA2B1D;
+}
+.amarelo {
+    color: yellow;
+}
+.branco {
+    color: whitesmoke;
+}
+.preto {
+    color: rgb(0, 0, 0);
+}
+
+.roxo {
+    color: rgb(116, 16, 116);
+}
+
+.laranja {
+    color: rgb(255, 123, 0);
+}
+
+.cinzaclaro {
+    color: rgb(197, 197, 197);
+}
+
+.cinza {
+    color: gray;
+}
+
+.cinzaescuro {
+    color: rgb(71, 71, 71);
+}
+
+.laranjacoral {
+    color: #D75413;
+}
+
+.rosachoque {
+    color: #ff00cc;
+}
+
+.ciano{
+    color: #00ffff;
+}
+
+.oceano {
+    color: #00A08D;
+}
+
+.azulclaro {
+    color: #51B7DE;
+}
+
+.cianoescuro {
+    color: #117C88;
+}
+
+.vermelhoescuro {
+    color: rgb(170, 19, 19);
+}
+
+.verdeloud {
+    color: rgb(37, 196, 37);
+}

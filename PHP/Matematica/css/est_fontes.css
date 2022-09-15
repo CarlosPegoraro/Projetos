@@ -1,0 +1,15 @@
+.italico {
+    font-style: italic;
+}
+
+.obliquio {
+    font-style: oblique;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.sublinhado {
+    text-decoration: underline;
+}

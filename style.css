@@ -12,12 +12,17 @@ html, body {
     width: 80%;
     border: #111 2px solid;
     padding: 20px;
+    margin: 0px auto;
     border-radius: 10px;
+    box-shadow: #11111154 3px 3px 4px;
 }
 
 .titulo {
     color: #111;
     font-size: 2rem;
+    padding: 25px;
+    border-bottom: #111 2px solid;
+    margin: 100px;
 }
 
 .projetos {

@@ -1,0 +1,150 @@
+body {
+    background-image: url(../imagens/portadesenhoBanco.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 10% 35%;
+    text-align: center;
+    overflow: hidden;
+}
+
+body.adm {
+    margin: 10% 30%;
+}
+
+fieldset {
+    width: 500px;
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18pt;
+    font-variant: small-caps;
+    font-style: italic;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: rgb(90, 90, 90);
+    color: rgb(214, 135, 15);
+    background-color: rgba(235, 235, 235, 0.842);
+}
+
+fieldset.adm {
+    width: 800px;
+}
+
+div.extrato {
+    overflow-y: scroll;
+    padding: 0px 15% 0px 7% ;
+    width: 600px;
+    height: 200px;
+    font-size: 16pt;
+    border: rgb(212, 139, 29) 2px solid;
+}
+
+legend {
+    width: auto;
+    padding: 1%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(90, 90, 90);
+    font-size: 20pt;
+    font-style: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(235, 235, 235, 0.842);
+}
+
+br {
+    margin: 1px;
+}
+
+a {
+    color: rgb(228, 143, 15);
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 18pt;
+}
+
+input[type="submit"] {
+    width: 150px;
+    font-size: 16pt;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(214, 134, 15, 0.507);
+    color: rgb(177, 115, 23);
+    background-color: rgb(185, 185, 185);
+}
+
+input[type="submit"]:hover {
+    width: 160px;
+    cursor: pointer;
+    border-color: rgba(240, 156, 30, 0.507);
+    color: rgb(218, 144, 33);
+    background-color: rgb(219, 219, 219);
+}
+
+input[type="text"], input[type="password"] {
+    width: 210px;
+    font-size: 16pt;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(214, 134, 15, 0.507);
+    color: rgb(212, 139, 29);
+    background-color: rgb(228, 228, 228);
+}
+
+input[type="text"].adm, input[type="password"].adm, input[type="number"] {
+    width: 140px;
+    font-size: 16pt;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(214, 134, 15, 0.507);
+    color: rgb(212, 139, 29);
+    background-color: rgb(228, 228, 228);
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+    width: 220px;
+    border-color: rgba(214, 134, 15, 0.507);
+    color: rgb(168, 112, 27);
+    background-color: rgb(187, 187, 187);
+}
+
+input[type="text"].adm:hover, input[type="password"].adm:hover, input[type="number"]:hover{
+    width: 150px;
+    border-color: rgba(214, 134, 15, 0.507);
+    color: rgb(168, 112, 27);
+    background-color: rgb(187, 187, 187);
+}
+
+input[type="text"]::placeholder {
+    color: rgb(75, 74, 74);
+}
+
+.contorno {
+    width: 500px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25pt;
+    font-variant: small-caps;
+    font-style: italic;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: groove;
+    border-color: rgb(214, 135, 15);
+    color: rgb(214, 135, 15);
+    background-color: rgba(235, 235, 235, 0.842);
+}
+
+.a {
+    width: auto;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(167, 113, 33);
+    background-color: rgba(112, 112, 112, 0.664);
+}

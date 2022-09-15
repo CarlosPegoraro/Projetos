@@ -1,0 +1,61 @@
+tela inicial
+-local para fazer login de funcionarios e de clientes
+
+tela cadastro
+-so para clientes, pois o funcionario eh cadastrado em outro local
+-campo para cpf ou email
+-campo para senha
+-envia os dados para cadastrar.php
+
+Cadastrando.php
+-coleta os dados e os prepara para injecao
+-injeta os dados
+
+cadastrar.php
+-coleta os dados do formulario
+-cria uma classe e injeta os dados nela
+-cria uma funcao para inserir os dados no banco de dados
+-se feito com sucesso, envia o usuario para o index.php
+
+logar.php
+-coleta dados do formulario
+-cria uma classe e injeta os dados
+-cria a funcao de logar
+-envia o usuario para a pagina de acesso
+
+Logando.php
+-coleta os dados
+-prepara os dados
+-conefere os dados
+-dedireciona para a hub correta
+
+--Clientes/hub
+-mostra duas opcoes: criar conta, mostrar conta
+
+--Clientes/CriarConta
+-pedir nome
+-pedir senha
+-pedir tipo de conta
+--se a conta for corrente, ganhar 500 reais
+--se a conta for popanca, ganhar 1000 reais
+-randomizar um numero de conta
+--mostrar numero da conta
+-criar uma tabela com o numero da conta
+
+--Clientes/verificarConta
+-puxar dados da conta
+-consultar se a conta existe usando a tabela contas
+-Enviar Usuario para a pagina de adm conta
+
+--Clientes/consultarConta/sacar.php
+
+--Clientes/ConsultarConta/Depositar.php
+--puxar dados da conta
+--consultar se a conta existe
+
+--Clientes/ConsultarConta/ConsultarTransferencias.php
+-puxar dados da conta
+-consultar se a conta existe usando a tabela contas
+-localizar a tabela usando o numero da conta
+-mostrar todas as transferencias
+

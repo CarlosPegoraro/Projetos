@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+    background-size: cover!important;
+    background: url(https://static.vecteezy.com/ti/fotos-gratis/p2/1971493-quadro-negro-inscrito-com-formulas-e-calculos-cientificos-foto.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    padding: 90px 0;
+}
+
+.calculator {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #dadada;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #1a1a1a;
+    color: #ff6600;
+    font: bolder 20pt serif;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000;
+}
+
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.calculator button{
+    background-color: #1a1a1a;
+    color: #ff6600;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 0 0 5px #000000;
+}
+
+button:hover{
+    background-color: #FBAB18;
+    color: black;
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

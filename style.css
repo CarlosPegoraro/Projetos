@@ -12,7 +12,7 @@ html, body {
     width: 80%;
     border: #111 2px solid;
     padding: 20px;
-    margin: 0px auto;
+    margin: 20px auto;
     border-radius: 10px;
     box-shadow: #11111154 3px 3px 4px;
 }
@@ -31,7 +31,7 @@ html, body {
 }
 
 .itens {
-    border-top: #111 1px dashed;
+    border-top: #111 1px solid;
     padding: 10px;
     margin: 10px;
     transition: 0.5s;

@@ -1,0 +1,24 @@
+Α	α	Alfa
+Β	β	Beta
+Γ	γ	Gama
+Δ	δ	Delta
+Ε	ε	Épsilon
+Ζ	ζ	Zeta ou Dzeta
+Η	η	Eta
+Θ	θ	Teta
+Ι	ι	Iota
+Κ	κ	Capa
+Λ	λ	Lambda
+Μ	μ	Mi
+Ν	ν	Ni
+Ξ	ξ	Csi ou Xi
+Ο	ο	Ômicron
+Π	π	Pi
+Ρ	ρ	Rô
+Σ	σ	Sigma
+Τ	τ	Tau
+Υ	υ	Ipsílon ou Ípsilon
+Φ	φ	Fi
+Χ	χ	Qui
+Ψ	ψ	Psi
+Ω	ω	Ômega

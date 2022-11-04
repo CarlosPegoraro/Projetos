@@ -1,0 +1,13 @@
+body {
+    height: auto;
+    background-size: cover!important;
+    background: url(mato.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    margin-top: 1%;
+}
+
+canvas {
+    opacity: 70%;
+}

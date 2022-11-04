@@ -45,12 +45,37 @@ module.exports = {
                 embed
                     .setDescription(`**[${song.tittle}](${song.url})** has been added to the queue`)
                     .setThumbnail(song.thumbnail)
-
+                    .setFooter({ text: `Duraction: ${song.duration}`})
             } else if (interaction.options.getSubcommand() === "playlist") {
+                let url = interaction.options.getString("url")
+                const result = await client.player.search(url, {
+                    requestBy: interaction.user,
+                    searchEngine: QueryType.YOUTUBE_PLAYLIST
+                })
+                if (result.tracks.length === 0 )
+                    return interaction.editReply("No results")
 
+                const playlist = result.playlist
+                await queue.addTrack(result.tracks)
+                embed
+                    .setDescription(`**${result.tracks.length} songs from [${playlist.tittle}](${playlist.url})** have been added to the queue`)
+                    .setThumbnail(song.thumbnail)
             } else if (interaction.options.getSubcommand() === "serach") {
+                let url = interaction.options.getString("url")
+                const result = await client.player.search(url, {
+                    requestBy: interaction.user,
+                    searchEngine: QueryType.YOUTUBE_VIDEO
+                })
+                if (result.tracks.length === 0 )
+                    return interaction.editReply("No results")
 
-            }
+                const song = result.traacks[0]
+                await queue.addTrack(song)
+                embed
+                    .setDescription(`**[${song.tittle}](${song.url})** has been added to the queue`)
+                    .setThumbnail(song.thumbnail)
+                    .setFooter({ text: `Duraction: ${song.duration}`})
+            } php - larevel / js - eletron / bootstrap - materalize - semantic
         }
 
 }

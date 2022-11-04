@@ -32,7 +32,7 @@
                     </p>
                 </form>
                 <p class="fonte18 trebuchet branco"> Resultado: </p>
-                <?php
+                @php
                     if ($_POST) 
                     {
                         $a = $_POST['txta'];
@@ -65,8 +65,8 @@
 
                     } else {
                         echo "<p class='fonte16 verdeloud negrito arial'>Selecione algum número</p>";
-                    } 
-                ?>
+                    }
+                @endphp
                 <br>
                 <p class="fonte20 branco arial">Link para voltar para o index:</p>
                 <a class="fonte16 verdeloud negrito arial" href="/projetos/hub.php">Voltar</a>

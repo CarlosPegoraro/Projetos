@@ -1,13 +1,33 @@
-body {
-    height: auto;
-    background-size: cover!important;
-    background: url(mato.jpg);
-    background-attachment: fixed;
-    background-position: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    background-color: #252525;
+    padding: 50px;
     text-align: center;
     margin-top: 1%;
 }
-
 canvas {
     opacity: 70%;
+}
+
+.link {
+    display: block;
+    color: #eaeaea;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.link:hover {
+    color: #c4c4c4;
+    font-size: 1.7rem;
+    text-decoration: none;
 }

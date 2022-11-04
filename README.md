@@ -1,6 +1,7 @@
 # Projetos
-<h2>Any projects were made by me for training my skills</h2>
-<p>
-    <a href="PHP/index.php">Simulador de um Banco</a>
-</p>
 
+## Any projects were made by me for training my skills</h2>
+
+### <a href="PHP/ProjetoBanco/index.html" target="_blank" rel="ProjetoBanco">Projeto Banco</a>
+
+### <a href="PHP/Matematica/index.html" target="_blank" rel="Matematica">Matematica</a>

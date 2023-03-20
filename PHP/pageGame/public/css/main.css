@@ -1,0 +1,25 @@
+@import url('exemples.css');
+
+body {
+    background-color: #353535;
+}
+
+#welcomeBg {
+    background-image: url('/imgs/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+#welcomeMsg {
+    font-size: 4rem;
+    color: var(--second-color);
+    font-family: var(--main-font);
+}
+
+#welcomeTxt {
+    font-size: 2rem;
+    color: var(--black);
+    font-family: var(--second-font);
+}

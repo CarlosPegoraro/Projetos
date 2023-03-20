@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
+
+:root {
+    --main-font: 'Rubik Iso', cursive;
+    --second-font: 'Edu NSW ACT Foundation', cursive;
+    --main-color: #20ccbb;
+    --main-color-2: #20eedd;
+    --main-color-3: #20aa99;
+    --second-color: #20cc20;
+    --second-color-2: #20ee20;
+    --second-color-3: #20aa20;
+    --black: #353535;
+    --white: #d9d9d9;
+}

@@ -1,6 +1,6 @@
 <x-layout>
     nivel 1
-    <a href="/l2">Esquerda</a>
-    <a href="/l3">Centro</a>
-    <a href="/l4">Direita</a>
+    <a href="{{$routeNumber}}">Esquerda</a>
+    <a href="{{$routeNumber}}">Centro</a>
+    <a href="{{$routeNumber}}">Direita</a>
 </x-layout>

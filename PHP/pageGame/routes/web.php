@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Levels;
+use App\Http\Controllers\RandomizerController;
 use Illuminate\Support\Facades\Route;
 
 /*

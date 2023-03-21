@@ -6,13 +6,18 @@ use Illuminate\Http\Request;
 
 class Levels extends Controller
 {
+    public function randomPage() {
+        $randomNumber = rand(0,5);
+        return view("level$randomNumber");
+    }
+    //Paginas
     public function menu()
     {
         return view('menu');
     }
-    public function level1()
+    public function level1($routeNumber)
     {
-        return view('level1');
+        return view('level1', [$routeNumber]);
     }
     public function level2()
     {

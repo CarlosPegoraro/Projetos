@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class Levels extends Controller
 {
     public function randomPage() {
-        $randomNumber = rand(0,5);
+        $randomNumber = rand(1,5);
         return view("level$randomNumber");
     }
     //Paginas

@@ -1,6 +1,6 @@
 <x-layout>
-    <main id="welcomeBg" class="text-center">
-        <h1 id="welcomeMsg" class="">
+    <main id="welcomeBg" class="grid grid-rows-4 gap-4 place-content-center">
+        <h1 id="welcomeMsg">
             Welcome to Ruins of Death
         </h1>
         <h2 id="welcomeTxt">
@@ -10,6 +10,6 @@
             <label for="nameInput">Nome Do Personagem</label>
             <input type="text" name="nameInput" id="nameInput">
         </form>
-        <a href="/l1">Iniciar Jornada</a>
+        <a href="/level">Iniciar Jornada</a>
     </main>
 </x-layout>

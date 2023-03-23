@@ -1,7 +1,7 @@
 @import url("resources.css");
 
 body {
-  background: linear-gradient(to bottom, var(--black), var(--grafite));
+  background: linear-gradient(to bottom, var(--black), var(--lead));
   color: var(--white);
   overflow-x: hidden;
 }
@@ -16,7 +16,10 @@ body {
 }
 
 .bg-light {
-  background-color: var(--cream) !important;
+  background: linear-gradient(to top, var(--cream), var(--white)) !important;
+}
+.bg-gray-black {
+  background: linear-gradient(to top, var(--black), var(--lead)) !important;
 }
 
 /*navbar*/
@@ -35,12 +38,12 @@ body {
 
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--wite);
+  color: var(--white);
   transition: 0.5s;
 }
 
 .nav-link:hover {
-  color: var(--main-color);
+  color: var(--main-color-dark);
   transition: 0.5s;
 }
 
@@ -63,31 +66,79 @@ body {
 }
 .carousel-inner {
   border-radius: 20px;
+  box-shadow: 2px 2px 4px #252525ad;
 }
 
 .caroseulTxt {
-  font-size: 1rem;
+  background-color: #35353535;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: var(--second-font);
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--cream);
+  transition: 0.5s;
+}
+
+.caroseulTxt:hover {
+  color: var(--second-color);
+  transition: 0.5s;
+}
+
+.caroseulImg {
+  width: 40rem;
+  height: 25rem;
+}
+
+/*Second Caroseul*/
+#secondCaroseul .carousel-indicators li {
+  background-color: #bbb;
+  border-color: #bbb;
+}
+
+#secondCaroseul .carousel-indicators .active {
+  background-color: #333;
+  border-color: #333;
 }
 
 /*Cards*/
 
 .card {
-  background-color: var(--grafite);
-  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  
+}
+
+.card-body {
+  background-color: var(--cream);
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px 2px 4px #252525ad;
 }
 
 .card-title {
-  color: var(--main-color);
+  color: var(--main-color-dark);
   font-family: var(--second-font);
 }
 
 .card-text {
-  color: var(--cream);
+  color: var(--grafite);
   font-family: var(--main-font);
 }
 
-/*Card Small*/
+.card-img-top {
+  height: 15rem;
+  box-shadow: 2px 2px 4px #252525ad;
+}
 
+.card-img-top-lg {
+  height: 20rem;
+}
+
+.card-lg {
+  width: 40rem;
+}
 
 
 /*highlight*/

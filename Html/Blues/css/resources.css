@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
 
 :root {
-    --main-font: 'Lobster', cursive;
+    --main-font: 'Montserrat', sans-serif;
     --second-font: 'Montserrat Alternates', sans-serif;
     --main-color: #FDCE5D;
+    --main-color-dark: #d69a0d;
     --second-color: #A81E1E;
     --black: #252525;
     --grafite: #353535;

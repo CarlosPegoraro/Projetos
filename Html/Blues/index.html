@@ -7,10 +7,9 @@
     <title>Welcome - Blues The Drink society</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/logoSlim.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -25,7 +24,8 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse position-absolute top-0 end-0 mt-3 me-5" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse position-absolute top-0 end-0 mt-3 me-5"
+                    id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -44,161 +44,226 @@
             </div>
         </nav>
     </header>
-    <main class="whiteBg">
+
+    <!--Caroseul-->
+    <main class="bg-light">
         <section class="pt-5">
             <div class="container-fluid text-center mt-5 pt-5">
                 <div id="myCarousel" class="carousel slide mx-auto" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                      <div class="carousel-item">
-                        <!--First Item-->
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
-                        <div class="container">
-                          <div class="carousel-caption">
-                            <h1 class="caroseulTxt">Example headline.</h1>
-                            <p><a class="btn btn-light" href="#">Sign up today</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <!--Second Item-->
-                      <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
-                        <div class="container">
-                          <div class="carousel-caption">
-                            <h1 class="caroseulTxt">Another example headline.</h1>
-                            <p><a class="btn btn-light" href="#">Learn more</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <!--Therty Item-->
-                      <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                              <h1 class="caroseulTxt">Another example headline.</h1>
-                              <p><a class="btn btn-light" href="#">Learn more</a></p>
+                        <div class="carousel-item">
+                            <!--First Item-->
+                            <svg class="bd-placeholder-img" width="100%" height="100%"
+                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <rect width="100%" height="100%" fill="#777"></rect>
+                            </svg>
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1 class="caroseulTxt">
+                                        <a class="text-decoration-none" href="#">Another example headline.</a>
+                                    </h1>
+                                </div>
                             </div>
-                          </div>
-                      </div>
+                        </div>
+                        <!--Second Item-->
+                        <div class="carousel-item">
+                            <svg class="bd-placeholder-img" width="100%" height="100%"
+                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <rect width="100%" height="100%" fill="#777"></rect>
+                            </svg>
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1 class="caroseulTxt">
+                                        <a class="text-decoration-none" href="#">Another example headline.</a>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Therty Item-->
+                        <div class="carousel-item active">
+                            <svg class="bd-placeholder-img" width="100%" height="100%"
+                                xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                                <rect width="100%" height="100%" fill="#777"></rect>
+                            </svg>
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1 class="caroseulTxt">
+                                        <a class="text-decoration-none" href="#">Another example headline.</a>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
                     </button>
-                  </div>
+                </div>
             </div>
         </section>
-        <div class="container-fluid m-5 p-5">
+
+        <!--Cards-->
+        <section class="container-fluid m-5 p-5 mb-0">
             <div class="row justify-content-center align-items-center">
-                <div class="col">
+                <h1 class="title">Destaque da semana</h1>
+                <div class="col m-3">
                     <div class="card" style="width: 18rem;">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
-                      </div>
+                    </div>
                 </div>
-                <div class="col"><div class="card" style="width: 18rem;">
+                <div class="col m-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <img src="img/wave.svg" alt="" width="100%">
+
+    <!--Destaque-->
+    <section class="container-fluid pt-5 mb-0">
+        <div class="row justify-content-center align-items-center">
+            <div class="row">
+                <h1 class="title m-5">Drink em Destaque</h1>
+                <div class="card" style="width: 20rem;">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Card title</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Descrição</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nobis ipsum voluptas architecto eos quaerat omnis, officia aliquam quis iusto doloremque hic perspiciatis, aut magni molestiae voluptate quibusdam accusantium unde.
+                                </p>
+                            </div>
+                            <div class="col-3">
+                                <h5 class="card-title">Ingredientes</h5>
+                                <p class="card-text">
+                                    <ul>
+                                        <li>a</li>
+                                        <li>a</li>
+                                        <li>a</li>
+                                        <li>a</li>
+                                        <li>a</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="col-3">
+                                <h5 class="card-title">Modo de</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk
+                                    of the card's content.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
                 </div>
             </div>
         </div>
-        <img src="img/wave.svg" alt="" width="100%">  
+    </section>
+    <!--Footer-->
+    <div class="container-fluid bg-light">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2023 Blues - The Drink Society</span>
+            </div>
 
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
 
-        <footer>
-          <div id="footer_content">
-              <div id="footer_contacts">
-                  <h1>Logo</h1>
-                  <p>It's all about your dreams.</p>
-  
-                
-              <ul class="footer-list">
-                  <li>
-                      <h3>Blog</h3>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">Tech</a>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">Adventures</a>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">Music</a>
-                  </li>
-              </ul>
-  
-              <ul class="footer-list">
-                  <li>
-                      <h3>Products</h3>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">App</a>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">Desktop</a>
-                  </li>
-                  <li>
-                      <a href="#" class="footer-link">Cloud</a>
-                  </li>
-              </ul>
-  
-              <div id="footer_subscribe">
-                  <h3>Subscribe</h3>
-  
-                  <p>
-                      Enter your e-mail to get notified about
-                      our news solutions
-                  </p>
-  
-                  <div id="input_group">
-                      <input type="email" id="email">
-                      <button>
-                          <i class="fa-regular fa-envelope"></i>
-                      </button>
-                  </div>
-              </div>
-          </div>
-  
-          <div id="footer_copyright">
-              &#169
-              2023 all rights reserved
-          </div>
-      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
-
-    </main>
 </body>
 
 </html>

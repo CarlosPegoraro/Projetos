@@ -50,8 +50,8 @@ body {
 /*caroseul*/
 
 #myCarousel {
-  width: fit-content;
-  height: fit-content;
+  width: 80%;
+  height: 40rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -88,8 +88,8 @@ body {
 }
 
 .caroseulImg {
-  width: 40rem;
-  height: 25rem;
+  width: 100%;
+  height: 40rem;
 }
 
 /*Second Caroseul*/
@@ -108,7 +108,6 @@ body {
 .card {
   background-color: transparent;
   border: none;
-  
 }
 
 .card-body {
@@ -123,23 +122,22 @@ body {
 }
 
 .card-text {
-  color: var(--grafite);
+  color: var(--black);
   font-family: var(--main-font);
 }
 
 .card-img-top {
-  height: 15rem;
+  height: 20rem;
   box-shadow: 2px 2px 4px #252525ad;
 }
 
 .card-img-top-lg {
-  height: 20rem;
+  height: 30rem;
 }
 
 .card-lg {
   width: 40rem;
 }
-
 
 /*highlight*/
 

@@ -2,6 +2,7 @@
 
 body {
   background: linear-gradient(to bottom, var(--black), var(--lead));
+  background-image: url('../img/bg/drinks.jpg');
   color: var(--white);
   overflow-x: hidden;
 }
@@ -19,7 +20,10 @@ body {
   background: linear-gradient(to top, var(--cream), var(--white)) !important;
 }
 .bg-gray-black {
-  background: linear-gradient(to top, var(--black), var(--lead)) !important;
+  background: var(--black) !important;
+}
+.text-light {
+  color: var(--white) !important;
 }
 
 /*navbar*/
@@ -127,7 +131,7 @@ body {
 }
 
 .card-img-top {
-  height: 20rem;
+  height: 15rem;
   box-shadow: 2px 2px 4px #252525ad;
 }
 
@@ -138,19 +142,28 @@ body {
 .card-lg {
   width: 40rem;
 }
+.card-body-lg {
+  background: var(--black);
+}
+
+.card-title-lg {
+  color: var(--white);
+  font-family: var(--main-font);
+  font-size: 1.5rem;
+}
 
 /*highlight*/
 
 .title {
   font-family: var(--main-font);
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   font-size: 2rem;
   line-height: 36px;
   /* identical to box height */
 
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--main-color-dark);
+  color: white;
   transition: 0.5s;
 }

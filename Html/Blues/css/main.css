@@ -2,8 +2,7 @@
 
 body {
   background: linear-gradient(to bottom, var(--black), var(--lead));
-  background-image: url('../img/bg/drinks.jpg');
-  color: var(--white);
+  background-image: url();
   overflow-x: hidden;
 }
 
@@ -20,13 +19,21 @@ body {
   background: linear-gradient(to top, var(--cream), var(--white)) !important;
 }
 .bg-gray-black {
-  background: var(--black) !important;
+  background-image: url('../img/wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .text-light {
   color: var(--white) !important;
 }
 
 /*navbar*/
+
+header{
+  z-index: 1000;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 33%, rgba(0,0,0, 0.0) 100%);
+}
 
 #headerLogo {
   width: 60px;

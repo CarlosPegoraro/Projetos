@@ -1,8 +1,6 @@
 @import url("resources.css");
 
 body {
-  background: linear-gradient(to bottom, var(--black), var(--lead));
-  background-image: url();
   overflow-x: hidden;
 }
 
@@ -32,7 +30,8 @@ body {
 
 header{
   z-index: 1000;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 33%, rgba(0,0,0, 0.0) 100%);
+  background: var(--black);
+  border-radius: 0px 0px 10px 10px;
 }
 
 #headerLogo {
